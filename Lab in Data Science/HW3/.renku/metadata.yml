@@ -1,0 +1,11 @@
+'@context':
+  created: schema:dateCreated
+  schema: http://schema.org/
+  name: schema:name
+  updated: schema:dateUpdated
+  version: schema:schemaVersion
+'@type': schema:Project
+created: 2020-04-08T08:20:06.709Z
+name: dslab-homework-3
+updated: 2020-04-08T08:20:06.709Z
+version: '1'

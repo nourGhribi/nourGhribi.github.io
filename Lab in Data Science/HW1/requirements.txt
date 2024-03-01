@@ -1,0 +1,4 @@
+pandas
+matplotlib
+pyhive[hive]
+holidays
