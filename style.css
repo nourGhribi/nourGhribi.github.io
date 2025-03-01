@@ -452,6 +452,79 @@ a {
   padding: 0 2rem 2rem;
 }
 
+/* Projects Grid Layout */
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 4rem;
+  margin-top: 6rem;
+}
+
+.projects__grid-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.projects__grid-item-img-cont {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.projects__grid-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.projects__grid-item:hover .projects__grid-item-img {
+  transform: scale(1.05);
+}
+
+.projects__grid-item-heading-tertiary {
+  font-size: 2.4rem;
+  margin: 2rem 2rem 1rem;
+}
+
+.projects__grid-item-text-primary {
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  flex-grow: 1;
+}
+
+.projects__grid-item-links {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .projects__grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
 /* ========================================
    CONTACT SECTION
 =========================================== */

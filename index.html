@@ -232,277 +232,212 @@
     </div>
   </section>
   <section id="projects" class="projects main-section">
-      <div class="main-container">
-        <h2 class="heading-secondary projects__heading-secondary">
-          <span class="heading-secondary__main"> Projects 🛠️</span>
-          <span class="heading-secondary__sm">
-            Here you will find some of the personal, academic and industry projects that I have worked on with the
-            projects details.
-          </span>
-        </h2>
-        <div class="main-section__content">
-          <div class="projects__list">
-            <div class="projects__list-item">
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/Visiolinguistic Image Search.jpg" alt="Project Image"
-                    class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  Visiolinguistic Image Search
-                  <!-- url: github.com/nourGhribi/visiolinguistic-imageSearch
-          Multi-Modal Machine Learning -->
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    Master Semester Project: Researching Multi-Modal framework for article image retrieval and
-                    matching:<br />
-                    - Reviewed and extensively researched State-Of-the-art Machine Learning models to replicate and
-                    combine them in a creative setting.<br />
-                    - Concluded the project by implementing a proof-of-concept on fashion data that leverages
-                    interactive
-                    image retrieval, keyword extraction, and image clustering.<br />
-                  </span>
-                </p>
-                <a href="https://www.github.com/nourGhribi/visiolinguistic-imageSearch">
-                  <button class="btn btn-inv projects__btn-inv">Code</button>
-                </a>
-              </div>
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__main"> Projects 🛠️</span>
+        <span class="heading-secondary__sm">
+          Here you will find some of the personal, academic and industry projects that I have worked on with the
+          projects details.
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__grid">
+          <!-- Project 1 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/Visiolinguistic Image Search.jpg" alt="Project Image" class="projects__grid-item-img" />
             </div>
-
-            <div class="projects__list-item">
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/KNNMovies.jpg" alt="Project Image" class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  Movie Recommender
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    This project was during the course <strong>Systems of Data Science</strong> which covers the
-                    important
-                    notions necessary for the deployment of todays state of the art data science solutions.
-                    What made me proficient in Scala and Spark without a doubt.
-                  </span>
-                  <!-- <br />
-                  <br /> -->
-                  <span>
-                    I learned how to make use of modern clusters and cloud offerings to scale up to very large workloads
-                    and analyze the trade-offs between various approaches to large-scale data management and analytics.
-                    This helps to choose the most appropriate existing systems architecture and technology for a task.
-                    - Developed a movie recommendation system leveraging user ratings and similarities for clustering
-                    from
-                    publicly available data and scaled it up to work on large databases using Spark and Scala.
-                    - Concluded the project by evaluating different system deployment strategies' price/performance.
-                  </span>
-                </p>
-                <a href="https://github.com/nourGhribi/knnmovierecommender">
-                  <button class="btn btn-inv projects__btn-inv">Code</button>
-                </a>
-              </div>
-              <div class="projects__list-item-count">
-                <span class="projects__list-item-count-num"> 2 </span>
-                <span class="projects__list-item-count-line"> </span>
-                <span class="projects__list-item-count-end-dot"> </span>
-              </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              Visiolinguistic Image Search
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                Master Semester Project: Researching Multi-Modal framework for article image retrieval and
+                matching:<br />
+                - Reviewed and extensively researched State-Of-the-art Machine Learning models to replicate and
+                combine them in a creative setting.<br />
+                - Concluded the project by implementing a proof-of-concept on fashion data that leverages
+                interactive image retrieval, keyword extraction, and image clustering.<br />
+              </span>
+            </p>
+            <div class="projects__grid-item-links">
+              <a href="https://www.github.com/nourGhribi/visiolinguistic-imageSearch">
+                <button class="btn btn-inv projects__btn-inv">Code</button>
+              </a>
             </div>
+          </div>
 
-            <div class="projects__list-item">
-              <div class="projects__list-item-count">
-                <span class="projects__list-item-count-num"> 3 </span>
-                <span class="projects__list-item-count-line"> </span>
-                <span class="projects__list-item-count-end-dot"> </span>
-              </div>
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/PredictingPresent.jpg" alt="Project Image" class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  Predicting the "Present" with Google Trends
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    Who has ever watched movies or documentaries about the 2008 crisis like "The Big Short" or "Inside
-                    Job" and wondered "If only I could predict the stock market crisis and make so much money by betting
-                    against the market?"
-                    We did.<br>
-                    - A replication of the paper <a
-                      href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1475-4932.2012.00809.x" target="_blank">
-                      Predicting the Present with Google Trends</a> followed by a creative extension.<br>
-                    - Leveraged Auto-Regressive models improved by time series data of Google search engine trends <a
-                      href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-4932.2012.00809.x">Predicting the
-                      "Present" with Google Trends</a> to predict index volatility in financial markets.<br>
-                    My team and I used the techniques proposed in the paper to devise a model for market volatility
-                    predictions and tested it on the Dow Jones Index to assess it.
-                  </span>
-                  <!-- <br />
-                  <br /> -->
-                </p>
-
-                <a href="https://nourghribi.github.io/GoogleTrendsReplication/">
-                  <button class="btn btn-theme projects__btn-theme">Data Story</button>
-                </a>
-                <a href="https://github.com/nourGhribi/GoogleTrendsReplication">
-                  <button class="btn btn-inv projects__btn-inv">Code</button>
-                </a>
-              </div>
+          <!-- Project 2 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/KNNMovies.jpg" alt="Project Image" class="projects__grid-item-img" />
             </div>
-            <!-- <div class="projects__list-item projects__list-item--inv"></div>  -->
-            <div class="projects__list-item">
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/TweetSentiment.jpg" alt="Project Image" class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  NLP Sentiment Aanalysis - Tweets Analysis
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    Where I found my passion for NLP before the rise of LLM.
-                  </span>
-                  <!-- <br />
-                  <br /> -->
-                  <span>
-                    A practical use of Natural Language Processing is sentiment analysis. This project aims to devise a
-                    sentiment classifier for tweets in English. During the project, I implemented different machine
-                    learning classifiers (Linear models and Deep Neural Networks) to detect positive and negative
-                    sentiments in tweets. GloVe embeddings and famous state-of-the-art NLP models such as ELMo and BERT
-                    helped make this project an astounding success.
-                    Learned to benchmark different machine learning models to detect positive/negative sentiments in
-                    tweets, by using basic linear models and sophisticated deep learning ones.
-                    Implemented different machine learning classifiers to detect positive/negative sentiments in tweets.
-                    Natural Language Processing: Glove embeddings and famous state-of-the-art NLP model BERT.
-                  </span>
-                </p>
-                <a
-                  href="https://github.com/nourGhribi/nourGhribi.github.io/tree/master/ML%20Projects/TwitterSentimentAnalysis">
-                  <button class="btn btn-inv projects__btn-inv">Code</button>
-                </a>
-              </div>
-              <div class="projects__list-item-count">
-                <span class="projects__list-item-count-num"> 4 </span>
-                <span class="projects__list-item-count-line"> </span>
-                <span class="projects__list-item-count-end-dot"> </span>
-              </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              Movie Recommender
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                This project was during the course <strong>Systems of Data Science</strong> which covers the
+                important notions necessary for the deployment of todays state of the art data science solutions.
+                What made me proficient in Scala and Spark without a doubt.
+              </span>
+              <span>
+                I learned how to make use of modern clusters and cloud offerings to scale up to very large workloads
+                and analyze the trade-offs between various approaches to large-scale data management and analytics.
+                This helps to choose the most appropriate existing systems architecture and technology for a task.
+                - Developed a movie recommendation system leveraging user ratings and similarities for clustering
+                from publicly available data and scaled it up to work on large databases using Spark and Scala.
+                - Concluded the project by evaluating different system deployment strategies' price/performance.
+              </span>
+            </p>
+            <div class="projects__grid-item-links">
+              <a href="https://github.com/nourGhribi/knnmovierecommender">
+                <button class="btn btn-inv projects__btn-inv">Code</button>
+              </a>
             </div>
+          </div>
 
-            <div class="projects__list-item">
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/Pytorch.jpg" alt="Project Image" class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  Homemade PyTorch Framework
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    <strong>Deep Learning: Under the hood of Neural Networks with PyTorch.</strong>
-                  </span>
-                  <!-- <br />
-                  <br /> -->
-                  <span>
-                    Discovered how deep learning framework PyTorch works by re-implementing some modules from scratch
-                    and
-                    learned the logic used and the power of underlying mechanisms that helped me develop an ease of
-                    working in PyTorch and deep learning.<br>
-                    Implemented the modules of pytorch for sequential neural networks from scratch (Linear layers,
-                    Activation Functions, Initializers, forward propagation, backpropagation and optimizers).<br>
-                    Benchmarking several neural net architectures combining Siamese Networks with weight sharing and
-                    auxiliary losses to predict a comparison between two hand-written digits from the MNIST dataset
-                    using
-                    PyTorch.<br>
-                  </span>
-                </p>
-                <a href="https://github.com/nourGhribi/PyTorch_Classifier">
-                  <button class="btn btn-inv projects__btn-inv">Code</button>
-                </a>
-              </div>
-              <div class="projects__list-item-count">
-                <span class="projects__list-item-count-num"> 5 </span>
-                <span class="projects__list-item-count-line"> </span>
-                <span class="projects__list-item-count-end-dot"> </span>
-              </div>
+          <!-- Project 3 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/PredictingPresent.jpg" alt="Project Image" class="projects__grid-item-img" />
             </div>
-
-            <div class="projects__list-item">
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/journeyPlanner.jpg" alt="Project Image" class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  Robust Journey Planner
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    <strong>
-                      Improved SBB-CFF journey planner by considering historical success rates using statistical
-                      modeling.
-                    </strong>
-                  </span>
-                  <!-- <br />
-                  <br /> -->
-                  <span>
-                    Dealt with Big Data: all the SBB-CFF lines timeltables, using Spark and Hadoop.<br />
-                    Modelled the data in a graph using NetworkX.<br />
-                    Modelled the delay of each line probabilistically.<br />
-                    Created a routing model that prioritizes success of connection instead of shorter travels.<br />
-                  </span>
-                </p>
-              </div>
-              <div class="projects__list-item-count">
-                <span class="projects__list-item-count-num"> 6 </span>
-                <span class="projects__list-item-count-line"> </span>
-                <span class="projects__list-item-count-end-dot"> </span>
-              </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              Predicting the "Present" with Google Trends
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                Who has ever watched movies or documentaries about the 2008 crisis like "The Big Short" or "Inside
+                Job" and wondered "If only I could predict the stock market crisis and make so much money by betting
+                against the market?"
+                We did.<br>
+                - A replication of the paper <a
+                  href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1475-4932.2012.00809.x" target="_blank">
+                  Predicting the Present with Google Trends</a> followed by a creative extension.<br>
+                - Leveraged Auto-Regressive models improved by time series data of Google search engine trends to predict index volatility in financial markets.<br>
+                My team and I used the techniques proposed in the paper to devise a model for market volatility
+                predictions and tested it on the Dow Jones Index to assess it.
+              </span>
+            </p>
+            <div class="projects__grid-item-links">
+              <a href="https://nourghribi.github.io/GoogleTrendsReplication/">
+                <button class="btn btn-theme projects__btn-theme">Data Story</button>
+              </a>
+              <a href="https://github.com/nourGhribi/GoogleTrendsReplication">
+                <button class="btn btn-inv projects__btn-inv">Code</button>
+              </a>
             </div>
+          </div>
 
-            <div class="projects__list-item">
-              <div class="projects__list-item-details">
-                <div class="projects__list-item-img-cont">
-                  <img src="./assets/Blockbuster Movies Recipe.jpg" alt="Project Image"
-                    class="projects__list-item-img" />
-                </div>
-                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                  Blockbuster Movies Recipe
-                </h3>
-                <!-- <hr class="projects__title-text-divider" /> -->
-                <p class="text-primary projects__list-item-text-primary">
-                  <span>
-                    What if production companies and publishers had a magic recipe for Blockbuster Movies ? Choosing the
-                    right cast members and executive team such that they are guarenteed a prominent success? Through
-                    thourough analysis of data (Exploratory Data Analysis) and fitting an appropriate ML model, we tried
-                    to predict movies success (ratings and revenues) and find the magic recipe for the greatest grossing
-                    film.
-                  </span>
-                </p>
-                <a href="https://github.com/nourGhribi/BlockbusterMovies">
-                  <button class="btn btn-inv projects__btn-inv">Code</button>
-                </a>
-              </div>
-
-              <div class="projects__list-item-count">
-                <span class="projects__list-item-count-num"> 7 </span>
-                <span class="projects__list-item-count-line"> </span>
-                <span class="projects__list-item-count-end-dot"> </span>
-              </div>
+          <!-- Project 4 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/TweetSentiment.jpg" alt="Project Image" class="projects__grid-item-img" />
             </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              NLP Sentiment Analysis - Tweets Analysis
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                Where I found my passion for NLP before the rise of LLM.
+              </span>
+              <span>
+                A practical use of Natural Language Processing is sentiment analysis. This project aims to devise a
+                sentiment classifier for tweets in English. During the project, I implemented different machine
+                learning classifiers (Linear models and Deep Neural Networks) to detect positive and negative
+                sentiments in tweets. GloVe embeddings and famous state-of-the-art NLP models such as ELMo and BERT
+                helped make this project an astounding success.
+                Learned to benchmark different machine learning models to detect positive/negative sentiments in
+                tweets, by using basic linear models and sophisticated deep learning ones.
+              </span>
+            </p>
+            <div class="projects__grid-item-links">
+              <a href="https://github.com/nourGhribi/nourGhribi.github.io/tree/master/ML%20Projects/TwitterSentimentAnalysis">
+                <button class="btn btn-inv projects__btn-inv">Code</button>
+              </a>
+            </div>
+          </div>
 
+          <!-- Project 5 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/Pytorch.jpg" alt="Project Image" class="projects__grid-item-img" />
+            </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              Homemade PyTorch Framework
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                <strong>Deep Learning: Under the hood of Neural Networks with PyTorch.</strong>
+              </span>
+              <span>
+                Discovered how deep learning framework PyTorch works by re-implementing some modules from scratch
+                and learned the logic used and the power of underlying mechanisms that helped me develop an ease of
+                working in PyTorch and deep learning.<br>
+                Implemented the modules of pytorch for sequential neural networks from scratch (Linear layers,
+                Activation Functions, Initializers, forward propagation, backpropagation and optimizers).<br>
+                Benchmarking several neural net architectures combining Siamese Networks with weight sharing and
+                auxiliary losses to predict a comparison between two hand-written digits from the MNIST dataset
+                using PyTorch.<br>
+              </span>
+            </p>
+            <div class="projects__grid-item-links">
+              <a href="https://github.com/nourGhribi/PyTorch_Classifier">
+                <button class="btn btn-inv projects__btn-inv">Code</button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/journeyPlanner.jpg" alt="Project Image" class="projects__grid-item-img" />
+            </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              Robust Journey Planner
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                <strong>
+                  Improved SBB-CFF journey planner by considering historical success rates using statistical
+                  modeling.
+                </strong>
+              </span>
+              <span>
+                Dealt with Big Data: all the SBB-CFF lines timeltables, using Spark and Hadoop.<br />
+                Modelled the data in a graph using NetworkX.<br />
+                Modelled the delay of each line probabilistically.<br />
+                Created a routing model that prioritizes success of connection instead of shorter travels.<br />
+              </span>
+            </p>
+          </div>
+
+          <!-- Project 7 -->
+          <div class="projects__grid-item">
+            <div class="projects__grid-item-img-cont">
+              <img src="./assets/Blockbuster Movies Recipe.jpg" alt="Project Image" class="projects__grid-item-img" />
+            </div>
+            <h3 class="heading-tertiary projects__grid-item-heading-tertiary">
+              Blockbuster Movies Recipe
+            </h3>
+            <p class="text-primary projects__grid-item-text-primary">
+              <span>
+                What if production companies and publishers had a magic recipe for Blockbuster Movies? Choosing the
+                right cast members and executive team such that they are guarenteed a prominent success? Through
+                thourough analysis of data (Exploratory Data Analysis) and fitting an appropriate ML model, we tried
+                to predict movies success (ratings and revenues) and find the magic recipe for the greatest grossing
+                film.
+              </span>
+            </p>
+            <div class="projects__grid-item-links">
+              <a href="https://github.com/nourGhribi/BlockbusterMovies">
+                <button class="btn btn-inv projects__btn-inv">Code</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
   </section>
   <section id="contact" class="contact main-section">
