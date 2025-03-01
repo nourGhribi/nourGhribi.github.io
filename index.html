@@ -239,11 +239,65 @@
   </section>
   <!-- To Add Skills Names -->
   <section class="skills-showcase">
-    <h2 style="text-align: center;">
-      <span class="heading-secondary__main">
-        Hey there! Glad you've dropped by my digital nook.
-      </span>
-    </h2>
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__main">Technical Skills</span>
+      </h2>
+      
+      <!-- Group skills by category -->
+      <div class="skills-categories">
+        <!-- Programming Languages -->
+        <div class="skills-category">
+          <h3 class="heading-tertiary">Programming Languages</h3>
+          <ul class="skills-showcase__list">
+            <li class="skills-showcase__list-item"><i class="devicon-python-plain"></i><span>Python</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-scala-plain"></i><span>Scala</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-r-plain"></i><span>R</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-java-plain"></i><span>Java</span></li>
+          </ul>
+        </div>
+
+        <!-- ML/AI Tools -->
+        <div class="skills-category">
+          <h3 class="heading-tertiary">ML/AI Tools</h3>
+          <ul class="skills-showcase__list">
+            <li class="skills-showcase__list-item"><i class="devicon-pytorch-original"></i><span>PyTorch</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-tensorflow-original"></i><span>TensorFlow</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-numpy-plain"></i><span>NumPy</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-pandas-plain"></i><span>Pandas</span></li>
+          </ul>
+        </div>
+
+        <!-- Data Tools -->
+        <div class="skills-category">
+          <h3 class="heading-tertiary">Data Tools</h3>
+          <ul class="skills-showcase__list">
+            <li class="skills-showcase__list-item"><i class="devicon-apachespark-original"></i><span>Spark</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-mysql-original"></i><span>MySQL</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-jupyter-plain"></i><span>Jupyter</span></li>
+          </ul>
+        </div>
+
+        <!-- Development Tools -->
+        <div class="skills-category">
+          <h3 class="heading-tertiary">Development Tools</h3>
+          <ul class="skills-showcase__list">
+            <li class="skills-showcase__list-item"><i class="devicon-git-plain"></i><span>Git</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-docker-plain"></i><span>Docker</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-linux-plain"></i><span>Linux</span></li>
+          </ul>
+        </div>
+
+        <!-- Cloud Platforms -->
+        <div class="skills-category">
+          <h3 class="heading-tertiary">Cloud Platforms</h3>
+          <ul class="skills-showcase__list">
+            <li class="skills-showcase__list-item"><i class="devicon-googlecloud-plain"></i><span>Google Cloud</span></li>
+            <li class="skills-showcase__list-item"><i class="devicon-amazonwebservices-plain"></i><span>AWS</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Professional Experience Section -->
@@ -252,24 +306,29 @@
       <h2 class="heading-secondary">
         <span class="heading-secondary__main">Professional Experience</span>
       </h2>
-      <div class="main-section__content experience__content">
-        <!-- Experience Item 1 -->
-        <div class="experience__item">
-          <h3 class="heading-tertiary">Effixis</h3>
-          <h4 class="heading-quaternary">Data Scientist / LLM Engineer</h4>
-          <p class="text-primary">
-            <span>
-              <strong>Effixis</strong> is a pioneering AI consulting firm where I work as a Data Scientist, specializing in Natural Language Processing (NLP) and Large Language Models (LLMs). I collaborate with cross-functional teams to develop innovative AI solutions, conduct research in NLP algorithms, and implement cutting-edge language model-powered tools. My role involves translating complex technical concepts into practical applications, working directly with clients to understand their needs, and delivering tailored AI solutions that drive value. I contribute to the development of sophisticated machine learning platforms while staying at the forefront of AI advancements.
-            </span>
-          </p>
+      <div class="experience__timeline">
+        <!-- Current position -->
+        <div class="experience__item experience__item--current">
+          <div class="experience__period">2023 - Present</div>
+          <div class="experience__content">
+            <h3 class="heading-tertiary">Data Scientist / LLM Engineer</h3>
+            <h4 class="heading-quaternary">Effixis</h4>
+            <p class="text-primary">
+              Specializing in Natural Language Processing (NLP) and Large Language Models (LLMs). Developing innovative AI solutions and implementing cutting-edge language model-powered tools.
+            </p>
+          </div>
         </div>
-        <!-- Experience Item 2 -->
+
+        <!-- Previous positions -->
         <div class="experience__item">
-          <h3 class="heading-tertiary">Compagnie Financière Tradition</h3>
-          <h4 class="heading-quaternary">Data Scientist Intern</h4>
-          <p class="text-primary">
-            Transformed financial data into actionable insights through innovative modeling and graph theory techniques. Helped drive strategic decision-making by developing predictive solutions.
-          </p>
+          <div class="experience__period">2022</div>
+          <div class="experience__content">
+            <h3 class="heading-tertiary">Data Scientist Intern</h3>
+            <h4 class="heading-quaternary">Compagnie Financière Tradition</h4>
+            <p class="text-primary">
+              Transformed financial data into actionable insights through innovative modeling and graph theory techniques.
+            </p>
+          </div>
         </div>
         <!-- Experience Item 3 -->
         <div class="experience__item">
